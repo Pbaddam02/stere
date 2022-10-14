@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="292c2de6-bf8b-4750-989c-a6022f4499b8" name="Default Changelist" comment="" />
+    <list default="true" id="292c2de6-bf8b-4750-989c-a6022f4499b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stere/fields/splinter/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/stere/fields/splinter/button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stere/fields/splinter/clickable.py" beforeDir="false" afterPath="$PROJECT_DIR$/stere/fields/splinter/clickable.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,9 +39,13 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="538" y="263" key="Vcs.Push.Dialog.v2" timestamp="1665766633649">
+    <state x="266" y="102" key="DiffContextDialog" timestamp="1665766782860">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="538" y="263" key="Vcs.Push.Dialog.v2/0.25.1680.1025@0.25.1680.1025" timestamp="1665766633649" />
+    <state x="266" y="102" key="DiffContextDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1665766782860" />
+    <state x="538" y="263" key="Vcs.Push.Dialog.v2" timestamp="1665767157685">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="538" y="263" key="Vcs.Push.Dialog.v2/0.25.1680.1025@0.25.1680.1025" timestamp="1665767157685" />
   </component>
 </project>
