@@ -14,21 +14,6 @@ class Clickable(Field):
 
     xhr_spy = XHRSpy()
 
-    @use_after
-    @use_before
-    def click(self) -> None:
-        """Use Splinter's click method.
-
-        Example:
-
-            >>> purchase = Clickable('id', 'buy_button')
-            >>> purchase.click()
-
-        """
-        self.is_visible()
-        self.is_clickable()
-        self.find().click()
-
     def wait_for_page_load(self):
         """Wait for browser to finish loading content."""
         return self.browser.evaluate_script(
@@ -44,3 +29,18 @@ class Clickable(Field):
         # Wait for network requests
         self.xhr_spy.add()
         self.xhr_spy.wait_for_no_activity()
+
+    @use_after
+    @use_before
+    def click(self) -> None:
+        """Use Splinter's click method.
+
+        Example:
+
+            >>> purchase = Clickable('id', 'buy_button')
+            >>> purchase.click()
+
+        """
+        self.is_visible()
+        self.is_clickable()
+        self.find().click()
